@@ -78,7 +78,7 @@ export const projects: Project[] = [
     description:
       "Generador de contratos legales multi-país con blockchain. Permite a freelancers generar contratos dinámicos seleccionando jurisdicción (España o Venezuela) y validar su huella digital en blockchain.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "pdf-lib", "ethers.js", "Testnet Ethereum"],
-    liveUrl: "https://lexchain.example.com",
-    githubUrl: "https://github.com/tuusuario/lexchain",
+    liveUrl: "https://lexchain-sooty.vercel.app/",
+    githubUrl: "https://github.com/josehernandezdeves/lexchain",
   },
 ];
