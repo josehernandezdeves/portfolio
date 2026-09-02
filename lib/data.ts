@@ -42,12 +42,12 @@ export const techStack: TechCategory[] = [
 
 export const projects: Project[] = [
   {
-    title: "MetaPulse",
+    title: "SiteAuditor",
     description:
       "Auditor de rendimiento web y metadatos SEO. Analiza la salud SEO de cualquier URL, evaluando etiquetas OpenGraph, tiempos de respuesta HTTP y generando un reporte ejecutivo visual.",
     tech: ["Next.js", "Server Actions", "TypeScript", "Tailwind CSS", "Recharts"],
-    liveUrl: "https://metapulse.example.com",
-    githubUrl: "https://github.com/tuusuario/metapulse",
+    liveUrl: "https://siteauditor-rust.vercel.app/",
+    githubUrl: "https://github.com/josehernandezdeves/siteauditor",
   },
   {
     title: "CashFlow Lab",
