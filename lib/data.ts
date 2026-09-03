@@ -54,7 +54,7 @@ export const techStack: TechCategory[] = [
 
 export const projects: Project[] = [
   {
-    title: "https://siteauditor-rust.vercel.app/",
+    title: "Site Auditor",
     category: "SEO & Performance Tooling",
     tagline:
       "Analiza la salud SEO y el rendimiento de cualquier URL en segundos.",
