@@ -108,8 +108,8 @@ export const projects: Project[] = [
       "Construí el almacenamiento estructurado de los datos extraídos en Supabase para su posterior reporte.",
     ],
     tech: ["Next.js", "TypeScript", "Node.js", "Tesseract.js", "Tailwind CSS", "Supabase"],
-    githubUrl: "https://github.com/tuusuario/docuextract",
-    // liveUrl: "https://docuextract.tudominio.com",
+    githubUrl: "https://github.com/josehernandezdeves/docuextract",
+    liveUrl: "https://docuextract-gamma.vercel.app/",
   },
   {
     title: "TrimLink",
