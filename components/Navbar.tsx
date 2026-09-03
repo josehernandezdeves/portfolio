@@ -41,7 +41,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-1">
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/josehernandezdeves"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -50,7 +50,7 @@ export default function Navbar() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://linkedin.com/in/tuusuario"
+            href="https://www.linkedin.com/in/josehernandezdeves/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="mailto:hola@josehernandez.dev"
+            href="mailto:josehernandezdeves@gmail.com"
             className="ml-2 flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-100 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-white"
           >
             <Mail className="h-3.5 w-3.5" />

@@ -7,9 +7,9 @@ export default function Hero() {
         Full-Stack Product Engineer
       </span>
 
-      <h1 className="max-w-3xl text-4xl font-medium leading-tight tracking-tight text-zinc-100 md:text-6xl">
-        José Antonio Hernández Alfonzo
-      </h1>
+    <h1 className="max-w-3xl text-4xl font-medium leading-tight tracking-tight text-zinc-100 md:text-6xl">
+      José Hernández
+    </h1>
 
       <p className="mt-4 max-w-2xl text-lg text-zinc-400 md:text-xl">
         Construyo software que resuelve problemas reales, desde la
@@ -32,7 +32,7 @@ export default function Hero() {
           <ArrowDown className="h-3.5 w-3.5" />
         </a>
         <a
-          href="https://github.com/tuusuario"
+          href="https://github.com/josehernandezdeves"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-md border border-zinc-800 bg-zinc-900/50 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-colors hover:border-zinc-700 hover:text-zinc-100"

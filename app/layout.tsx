@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "José Antonio Hernández Alfonzo — Full-Stack Product Engineer",
+  title: "José Hernández — Full-Stack Product Engineer",
   description:
-    "Portfolio de José Antonio Hernández Alfonzo, desarrollador full-stack. Construyo software que resuelve problemas reales con Next.js, TypeScript y PostgreSQL.",
+    "Portfolio de José Hernández, desarrollador full-stack. Construyo software que resuelve problemas reales con Next.js, TypeScript y PostgreSQL.",
 };
 
 export default function RootLayout({
