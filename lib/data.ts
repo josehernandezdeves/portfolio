@@ -61,7 +61,7 @@ export const projects: Project[] = [
     problem:
       "Detectar problemas de SEO técnico y metadatos rotos suele requerir revisar manualmente varias herramientas dispersas, lo que ralentiza las auditorías rápidas.",
     solution:
-      "MetaPulse centraliza el análisis: recibe una URL, evalúa sus etiquetas OpenGraph y tiempos de respuesta HTTP, y genera un reporte ejecutivo visual en una sola pantalla.",
+      "SiteAuditor centraliza el análisis: recibe una URL, evalúa sus etiquetas OpenGraph y tiempos de respuesta HTTP, y genera un reporte ejecutivo visual en una sola pantalla.",
     engineering: [
       "Implementé Server Actions de Next.js para orquestar el scraping y análisis sin exponer un endpoint API público.",
       "Diseñé el parser de etiquetas OpenGraph y metadatos HTML, con manejo de casos incompletos o mal formados.",
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Server Actions", "TypeScript", "Tailwind CSS", "Recharts"],
     // metrics: agrega aquí cuando tengas números reales (ej. "20+ checks técnicos")
     githubUrl: "https://github.com/josehernandezdeves/siteauditor",
-    // liveUrl: "https://metapulse.tudominio.com",
+    liveUrl: "https://siteauditor-rust.vercel.app/",
   },
   {
     title: "CashFlow Lab",
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     ],
     tech: ["Next.js", "Middleware", "TypeScript", "Tailwind CSS", "Supabase"],
     githubUrl: "https://github.com/josehernandezdeves/trimlink",
-    // liveUrl: "https://trimlink.tudominio.com",
+    liveUrl: "https://trimlink-lilac.vercel.app/",
   },
   {
     title: "LexChain",
@@ -147,6 +147,6 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "pdf-lib", "ethers.js", "Testnet Ethereum"],
     metrics: ["2 jurisdicciones soportadas (España, Venezuela)"],
     githubUrl: "https://github.com/josehernandezdeves/lexchain",
-    // liveUrl: "https://lexchain.tudominio.com",
+    liveUrl: "https://lexchain-sooty.vercel.app/",
   },
 ];
