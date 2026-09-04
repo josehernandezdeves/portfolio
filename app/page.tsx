@@ -41,10 +41,10 @@ export default function Home() {
       />
       <Navbar />
       <Hero />
+      <TechStack />
       <Projects />
       <Experience />
       <About />
-      <TechStack />
       <Contact />
       <Footer />
     </main>
