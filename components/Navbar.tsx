@@ -6,7 +6,6 @@ import { siteConfig } from "@/lib/site-config";
 const navLinks = [
   { label: "Proyectos", href: "/#proyectos" },
   { label: "Experiencia", href: "/#experiencia" },
-  { label: "Sobre mí", href: "/#sobre-mi" },
   { label: "Contacto", href: "/#contacto" },
 ];
 
