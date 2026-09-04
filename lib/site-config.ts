@@ -14,7 +14,7 @@ export const siteConfig = {
   title: "José Hernández — Full-Stack Product Engineer",
   description:
     "Portfolio de José Hernández, Full-Stack Product Engineer. Construyo productos completos de extremo a extremo — arquitectura, backend, frontend y despliegue — con Next.js, TypeScript y PostgreSQL.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://josehernandez.dev",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-josehernandezdeves.vercel.app/",
   github: "https://github.com/josehernandezdeves",
   linkedin: "https://www.linkedin.com/in/josehernandezdeves/",
   email: "josehernandezdeves@gmail.com",
