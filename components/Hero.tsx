@@ -1,4 +1,5 @@
 import { ArrowDown, Github } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
 
 export default function Hero() {
   return (
@@ -32,7 +33,7 @@ export default function Hero() {
           <ArrowDown className="h-3.5 w-3.5" />
         </a>
         <a
-          href="https://github.com/josehernandezdeves"
+          href={siteConfig.github}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-md border border-zinc-800 bg-zinc-900/50 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-colors hover:border-zinc-700 hover:text-zinc-100"

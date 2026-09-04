@@ -1,4 +1,5 @@
-import { ExternalLink, Code2 } from "lucide-react";
+import Link from "next/link";
+import { ExternalLink, Code2, ArrowUpRight } from "lucide-react";
 import type { Project } from "@/lib/types";
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -30,7 +31,12 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div>
           <div className="flex flex-wrap items-center gap-2.5">
             <h3 className="text-lg font-medium text-zinc-100 md:text-xl">
-              {project.title}
+              <Link
+                href={`/projects/${project.slug}`}
+                className="transition-colors hover:text-zinc-300 focus-visible:outline-none focus-visible:underline"
+              >
+                {project.title}
+              </Link>
             </h3>
             <span className="rounded border border-zinc-800 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wide text-zinc-500">
               {project.category}
@@ -39,7 +45,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           <p className="mt-1.5 max-w-xl text-sm text-zinc-400">{project.tagline}</p>
         </div>
 
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="flex shrink-0 flex-wrap items-center gap-2">
           {project.liveUrl && (
             <a
               href={project.liveUrl}
@@ -103,6 +109,17 @@ export default function ProjectCard({ project }: { project: Project }) {
           <BulletList items={project.metrics} dotClassName="bg-emerald-500" />
         </div>
       )}
+
+      {/* Case study */}
+      <div className="mt-6 border-t border-zinc-800 pt-5">
+        <Link
+          href={`/projects/${project.slug}`}
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-zinc-300 transition-colors hover:text-zinc-100"
+        >
+          Ver case study completo
+          <ArrowUpRight className="h-3.5 w-3.5" />
+        </Link>
+      </div>
     </article>
   );
 }

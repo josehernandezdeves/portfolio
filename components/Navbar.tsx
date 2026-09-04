@@ -1,18 +1,20 @@
 "use client";
 
 import { Github, Linkedin, Mail } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
 
 const navLinks = [
-  { label: "Proyectos", href: "#proyectos" },
-  { label: "Tech Stack", href: "#tech-stack" },
-  { label: "Sobre mí", href: "#sobre-mi" },
+  { label: "Proyectos", href: "/#proyectos" },
+  { label: "Experiencia", href: "/#experiencia" },
+  { label: "Sobre mí", href: "/#sobre-mi" },
+  { label: "Contacto", href: "/#contacto" },
 ];
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-2.5">
+        <a href="/" className="flex items-center gap-2.5">
           <span className="font-mono text-sm font-medium text-zinc-100">
             JHA
           </span>
@@ -41,7 +43,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-1">
           <a
-            href="https://github.com/josehernandezdeves"
+            href={siteConfig.github}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -50,7 +52,7 @@ export default function Navbar() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://www.linkedin.com/in/josehernandezdeves/"
+            href={siteConfig.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -59,7 +61,7 @@ export default function Navbar() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="mailto:josehernandezdeves@gmail.com"
+            href={`mailto:${siteConfig.email}`}
             className="ml-2 flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-100 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-white"
           >
             <Mail className="h-3.5 w-3.5" />
