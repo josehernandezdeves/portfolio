@@ -115,37 +115,6 @@ export const projects: Project[] = [
     liveUrl: "https://siteauditor-rust.vercel.app/",
   },
   {
-    slug: "cashflow-lab",
-    title: "CashFlow Lab",
-    category: "Fintech Dashboard",
-    tagline:
-      "Panel de control para gestionar ingresos, gastos y flujo de caja personal.",
-    problem:
-      "Las hojas de cálculo genéricas no ofrecen una vista clara ni filtrable del flujo de caja real a lo largo del tiempo.",
-    solution:
-      "CashFlow Lab centraliza ingresos y gastos en un dashboard con filtros por fecha y categoría, y visualiza el flujo de caja con gráficos interactivos respaldados por un modelo de datos real, no una hoja de cálculo.",
-    engineering: [
-      "Diseñé el esquema de base de datos en PostgreSQL (Supabase) para transacciones, categorías y usuarios.",
-      "Implementé filtros combinables por rango de fechas y categoría personalizada sobre las consultas a la base de datos.",
-      "Construí los gráficos interactivos de flujo de caja con Recharts, agregando datos por periodo.",
-      "Aseguré el acceso a los datos con Row Level Security de Supabase, aislando la información por usuario.",
-    ],
-    keyFeatures: [
-      "Dashboard financiero con visualización interactiva del flujo de caja.",
-      "Filtros combinables por rango de fechas y categoría.",
-      "Modelado de transacciones y categorías en PostgreSQL.",
-      "Aislamiento de datos por usuario mediante Row Level Security.",
-    ],
-    challenges: [
-      "Diseñar un esquema de datos que soportara filtros combinables (fecha + categoría) sin multiplicar las consultas.",
-      "Aplicar Row Level Security de Supabase como capa de autorización, en vez de reimplementar esa lógica manualmente en cada ruta.",
-    ],
-    result:
-      "Funcional con datos de prueba end-to-end: alta de transacciones, filtrado y visualización del flujo de caja. El modelo de datos y las políticas de RLS están pensados para escalar a múltiples usuarios reales.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Supabase"],
-    githubUrl: "https://github.com/tuusuario/cashflow-lab",
-  },
-  {
     slug: "docuextract",
     title: "DocuExtract",
     category: "OCR & Document Automation",
